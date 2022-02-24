@@ -23,7 +23,7 @@ pipeline {
             steps {
               echo 'Deploying...'
               bat '''
-                 git push https://rsvp-service-dereje-ayele.git/ HEAD:main -f
+                 git push https://git.heroku.com/rsvp-service-dereje-ayele.git/ HEAD:main -f
               '''
             }
         }
